@@ -1,0 +1,42 @@
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+.estilo {
+    padding: 1rem;
+    background-color: black;
+    color: #EEE;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.menu li {
+    padding-left: 3rem;
+}
+
+.menu a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+    height: 100px;
+}
+
+.hero {
+    background-image: url("https://placeimg.com/1420/720/arch");
+    background-color: rgba(0, 0, 0, .75);
+    min-height: 80vh;
+    background-repeat: no-repeat;
+}
