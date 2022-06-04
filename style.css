@@ -1,136 +1,228 @@
 * {
- padding: 0;
- margin: 0;
- box-sizing: border-box;
-}
-
-.estilo {
-    padding: 1rem;
-    background-color: black;
-    color: #EEE;
-}
-
-.menu ul{
-    display: flex;
-    list-style: none;
-    justify-content: flex-end;
-}
-
-.menu li {
-    padding: 2rem;
-}
-
-.menu a{
-    text-decoration: none;
-    color: antiquewhite;
-}
-
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-right: 50px;
-    padding-left: 50px;
-    height: 100px;
-}
-
-.hero {
-    background-image: url("https://placeimg.com/1800/720/arch");
-    background-color: rgba(0, 0, 0, .75);
-    min-height: 80vh;
-    background-repeat: no-repeat;
-}
-
-.container {
-    background-color: white;
-    height: 400px;
-    width: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   }
    
- }
- 
- .box {
-    color: #000000;
- }
- 
- .box h2{
-     padding-bottom: 10px;
- }
-
- .box1{
-    height: 320px;
-    width: 180px;
- }
- 
- .box2{
-    height: 320px;
-    width: 180px;
- }
- 
- .box3{
-    height: 320px;
-    width: 180px;
- }
- 
- .box4{
-    height: 320px;
-    width: 180px;
- }
-
- .container2 {
-    background-color: white;
-    height: 300px;
-    width: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 80px;
- }
-
- .item{
-     display: flex;
-     flex-direction: row;
- }
-
- 
-@media screen and (max-width: 760px) {
-
-    .header {
-        display: flex;
-        flex-direction: column;
+   .estilo {
+       padding: 1rem;
+       background-color: black;
+       color: #EEE;
+   }
+   
+   .menu ul{
+       display: flex;
+       list-style: none;
+       justify-content: flex-end;
+   }
+   
+   .menu li {
+       padding: 2rem;
+   }
+   
+   .menu a{
+       text-decoration: none;
+       color: antiquewhite;
+   }
+   
+   .header {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       padding-right: 50px;
+       padding-left: 50px;
+       height: 100px;
+   }
+   
+   .hero {
+       background-image: url("https://placeimg.com/1800/720/arch");
+       background-color: rgba(0, 0, 0, .75);
+       min-height: 80vh;
+       background-repeat: no-repeat;
+   }
+   
+   .container {
+       background-color: white;
+       height: 400px;
+       width: auto;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       align-items: center;
+      
     }
-  
-    .menu {
-        display: flex;
-        justify-content: center;
+    
+    .box {
+       color: #000000;
     }
-
-    .menu li {
-        padding: 10px;
-         }
-
-    .container box{
+    
+    .box h2{
+        padding-bottom: 10px;
+    }
+   
+    .box1{
+       height: 320px;
+       width: 180px;
+    }
+    
+    .box2{
+       height: 320px;
+       width: 180px;
+    }
+    
+    .box3{
+       height: 320px;
+       width: 180px;
+    }
+    
+    .box4{
+       height: 320px;
+       width: 180px;
+    }
+   
+    .container2 {
+       background-color: rgb(175, 91, 91);
+       height: 400px;
+       width: auto;
+       display: flex;
+       margin-top: 80px;
+       padding-left: 80px;
+    }
+   
+    .item{
         display: flex;
         flex-direction: row;
-
+        margin-top: 10px;
+        padding-bottom: 10px;
     }
-
-    .container{
-        height: 100%;
-        background-color: #fff;
-        width: auto;
+   
+    .item p{
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
-        margin-top: 50px;
-      }
-
-      .box {
-        margin-bottom: 25px;
-   }
+        margin-left: 5px;
+        text-align: start;
     }
+   
+   .bloco3{
+       width: 800px;
+   }
+   
+   .bloco3 h2{
+       margin-bottom: 10px;
+   }
+   
+   .bloco3 p{
+       text-align: justify;
+       padding-right: 15px;
+   }
+   
+   .bloco3 img{
+       width: 100%;
+   }
+   
+   .container3{
+       background-color: rgb(175, 91, 91);
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       padding-left: 80px;
+       padding-bottom: 30px;
+       padding-top: 50px;
+   }
+    
+   .caja{ 
+       width: 1200px;
+   }
+   
+   .caja0 p{
+       margin-top: 10px;
+       text-align: justify;
+       margin-right: 50px;
+   }
+   
+   .caja1{
+       width: 500px;
+   }
+   
+   .caja1 li{
+       display: flex;
+       justify-content: center;
+       padding-top: 8px;
+       padding-right: 20px;
+   }
+   
+   footer{
+       display: flex;
+       justify-content: center;
+       text-decoration: none;
+       vertical-align: 5px;
+       letter-spacing: 5px;
+   }
+   
+   .footer1 a{
+       text-decoration: none;
+       color: red;
+   }
+   
+   @media screen and (max-width: 760px) {
+   
+       .header {
+           display: flex;
+           flex-direction: column;
+       }
+     
+       .menu {
+           display: flex;
+           justify-content: center;
+       }
+   
+       .menu li {
+           padding: 10px;
+            }
+   
+       .container box{
+           display: flex;
+           flex-direction: row;
+   
+       }
+   
+       .container{
+           height: 100%;
+           background-color: #fff;
+           width: auto;
+           display: flex;
+           flex-direction: column;
+           justify-content: space-around;
+           align-items: center;
+           margin-top: 50px;
+         }
+   
+         .box {
+           margin-bottom: 25px;
+      }
+   
+     .container2{
+           height: 100%;
+           background-color: #fff;
+           width: auto;
+           display: flex;
+           flex-direction: column;
+           justify-content: space-around;
+           align-items: center;
+           margin-top: 50px;
+           padding: 40px;
+         }
+     
+     .bloco3  {
+       display: flex;
+       width:auto;
+       flex-direction: row;
+       flex-wrap: wrap;
+     }
+   
+     .container3{
+       padding: 40px;
+     }
+       }
+   
